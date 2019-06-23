@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bookmark/', include('bookmark.urls')), #북마크앱의 urls.py를 연결 : bookmark/이후의 url를 bookmark의 urls.py로 전달
+    path('', include('bookmark.urls')), #북마크앱의 urls.py를 연결 : bookmark/이후의 url를 bookmark의 urls.py로 전달
 ]
