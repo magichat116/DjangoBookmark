@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+{{object.site_name}}<br/>
+{{object.url}} <!-- 제네릭뷰가 object로 북마크의 값을 전달 -->
+{% endblock %}
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {{object.site_name}}<br/>
+    {{object.url}} <! 제네릭뷰가 object로 북마크의 값을 전달 >
+</body>
+</html>
+-->
